@@ -7,6 +7,7 @@
 pip3 install Dendropy
 import Dendropy as dendro
 import pandas as pd
+import subprocess
 def fastaalignmentPhylogeny(fastafile=None):
   if fastafiles is not None:
     readingfasta = [i.strip().split() for i in open(fastafile).readlines()]
@@ -18,3 +19,4 @@ def fastaalignmentPhylogeny(fastafile=None):
    fastanames = list(fastadirectory.keys())
    sequences = list(fastadirectory.values())
 pd.DataFrame(sequences, columns=fastanames)
+
