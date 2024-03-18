@@ -12,7 +12,8 @@ To run this, run all of these in the following order:
 
 Normalize your header by running this before running the analysis
 ```
-cat fastafile | cut -f 1 -d " " | cut -f 1 -d "."
+cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
+# the output fasta will be used for all the analysis. 
 ```
 
 Gaurav Sablok \
