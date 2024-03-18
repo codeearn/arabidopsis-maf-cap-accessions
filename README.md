@@ -12,7 +12,7 @@ To run this, run all of these in the following order:
 
 Normalize your header by running this before running the analysis
 ```
-cat maf_coding.fasta | cut -f 1 -d " "
+cat fastafile | cut -f 1 -d " " | cut -f 1 -d "."
 ```
 
 Gaurav Sablok \
