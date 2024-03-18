@@ -10,6 +10,7 @@ To run this, run all of these in the following order:
 6. map.R: Run this to make the genome phylogeny along with the alignment placement on the phylogeny.
 7. alignmentphylogeny.py: Run this if you want to run the alignment and the phylogeny as a python version.
 8. manhattanplot.R: Make the manhattan plot from the alignments.
+9. Uncompress the tar archive by using the ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
 
 Normalize your header by running this before running the analysis
 ```
