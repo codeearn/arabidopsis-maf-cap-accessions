@@ -7,9 +7,11 @@
 library(ggplots2)
 library(BioStrings)
 library(ape)
+library(seqinr)
+library(ggmsa)
 library(msa)
 visualfreq <- function(inputfile, alignmentwidth){
-  if (!stopifnot(inputfile)){
+  if (stopifnot(inputfile)){
     paste0("inputfile is necessary)"
   } else
   filefasta <- read.FASTA(inputfile)
