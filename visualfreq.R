@@ -15,6 +15,10 @@ visualfreq <- function(inputfile, alignmentwidth){
     paste0("inputfile is necessary)"
   } else
   filefasta <- read.FASTA(inputfile)
+  fileconvert <- readDNAStringSet(inputfile)
+  aligned <- msa(filefasta)
+  alignednew <- msa(aligned)
+  convertalignment <- msaConvert(aligned, type = "ape::DNAbin")
   multiplealignments <- msa(filefasta)
   imagevisual <- ggmsa(multiplealignment, width = alignmentwidth)
   save.image(file = "alignmentvisual", compress = FALSE)         
