@@ -7,7 +7,8 @@ To run this, run all of these in the following order:
 3. alignmentrecordnon.sh: Run this to make the corresponding alignments, based on the genome alignment and the gene anchor approach.
 4. phylogeny.R: Run this to make the phylogeny.
 5. visualfreq.R: Run this to make the visualization plot.
-6. map.R: Run this to make the genome phylogeny along with the alignment placement on the phylogeny. 
+6. map.R: Run this to make the genome phylogeny along with the alignment placement on the phylogeny.
+7. alignmentphylogeny.py: Run this if you want to run the alignment and the phylogeny as a python version.
 
 Gaurav Sablok \
 Academic Staff Member \
