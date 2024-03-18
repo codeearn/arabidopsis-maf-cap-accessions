@@ -10,6 +10,11 @@ To run this, run all of these in the following order:
 6. map.R: Run this to make the genome phylogeny along with the alignment placement on the phylogeny.
 7. alignmentphylogeny.py: Run this if you want to run the alignment and the phylogeny as a python version.
 
+Normalize your header by running this before running the analysis
+```
+cat maf_coding.fasta | cut -f 1 -d " "
+```
+
 Gaurav Sablok \
 Academic Staff Member \
 Bioinformatics \
