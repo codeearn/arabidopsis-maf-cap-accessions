@@ -20,7 +20,7 @@ cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
 
 ## Analysis for the arabidopsis genomes and the accessions cited in the paper: [paper link](https://www.nature.com/articles/s41586-023-06062-z#data-availability)
 
-#### Analysis outlay: since the genomes reported in the paper have not been annotated, I took two approaches to annotated the genome. The first approach that i took is to use the [Liftoff](https://github.com/sablokgaurav/Liftoff) and the second approach is to use the [codebin](https://github.com/lastz/lastz) to use the gene sequences for the corresponding genes and then align them to the genome of all these accesssion and extract those regions and then make a alignment of the same. The code along with the runs files are present within the project execution files. 
+##### Analysis outlay: since the genomes reported in the paper have not been annotated, I took two approaches to annotated the genome. The first approach that i took is to use the [Liftoff](https://github.com/sablokgaurav/Liftoff) and the second approach is to use the [codebin](https://github.com/lastz/lastz) to use the gene sequences for the corresponding genes and then align them to the genome of all these accesssion and extract those regions and then make a alignment of the same. The code along with the runs files are present within the project execution files. 
 
 Gaurav Sablok \
 Academic Staff Member \
