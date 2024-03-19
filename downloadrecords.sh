@@ -4,6 +4,7 @@ download () {
    # -*- coding:  utf-8 -*-
    # Author: Gaurav Sablok
    # date: 2024-3-5
+   # Universitat Potsdam
    echo "process the alignment"
    echo "checking the alignment tags"
    echo "making the environment"
