@@ -21,11 +21,7 @@ suppressPackageStartupMessages(library(reticulate, pos = "package:base"))
   write.FASTA(alignmentwrite, file = "alignment.fasta")
   fasta <- "/home/gaurav/Desktop/arabidopsis/alignment.fasta"
   ggmsa(fasta, 164, 213, color="Chemistry_AA")
-  complete_likelihood <- TreeLine(myXStringSet = 
-          readDNAStringSet(file = "alignment.fasta"),myDistMatrix = 
-         DistanceMatrix(RemoveGaps(StaggerAlignment(AlignSeqs(readDNAStringSet(
-                     file = "alignment.fasta"))), 
-                           removeGaps = "all", processors = 3), type = "dist"), 
-       method = "complete", cutoff = 0.05, showPlot = TRUE, reconstruct = TRUE)
-  WriteDendrogram(complete_likelihood, file = "maximum_likelihood.txt")
+  likelihood <- TreeLine(myXStringSet = readDNAStringSet(file = fasta), 
+                         showPlot = TRUE, reconstruct = TRUE)
+  WriteDendrogram(ikelihood, file = "maximum_likelihood.txt")
 }
