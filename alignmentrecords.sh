@@ -1,5 +1,4 @@
-  GNU nano 6.2                                                    alignmentrecord.sh *                                                     M     
-alignment () {
+ alignment () {
    # a streamline function for accessing the ENA archives using the API access.
    #!/usr/bin/env bash
    # -*- coding:  utf-8 -*-
