@@ -1,7 +1,7 @@
 #! usr/bin/R
 # Author Gaurav Sablok
 # Universitat Potsdam
-# making the phylogeny and plotting the alignment on the phylogeny using the ggtree and the ggplot2
+# plotting the phylogeny
 phylogeny <- function(inputfile){
 suppressPackageStartupMessages(library(argparser, pos = "package:base"))
 suppressPackageStartupMessages(library(methods, pos = "package:base"))
