@@ -24,6 +24,7 @@ cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
 
 ##### This is how the alignment plot will look. There will be more sequences but this is an example to show how it will look. I can also add the probabilistic frequencies. Let me know, if this is passed then will generate the complete analysis by Monday. 
 ![graphical alignment](https://github.com/sablokgaurav/arabidopsis_maf_cap_acessions_alignments/blob/main/Rplot.jpeg)
+![phylogeny](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions_alignments/blob/main/phylogeny.jpeg)
 
 Gaurav Sablok \
 Academic Staff Member \
