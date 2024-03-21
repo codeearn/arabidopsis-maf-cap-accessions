@@ -22,7 +22,7 @@ cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
 
 ##### Analysis outlay: since the genomes reported in the paper have not been annotated, I took two approaches to annotated the genome. The first approach that i took is to use the [Liftoff](https://github.com/sablokgaurav/Liftoff) and the second approach is to use the [codebin](https://github.com/lastz/lastz) to use the gene sequences for the corresponding genes and then align them to the genome of all these accesssion and extract those regions and then make a alignment of the same. The code along with the runs files are present within the project execution files. 
 
-### This is how the alignment plot will look. There will be more sequences but this is an example to show how it will look. I can also add the probabilistic frequencies. Let me know, if this is passed then will generate the complete analysis by Monday. 
+##### This is how the alignment plot will look. There will be more sequences but this is an example to show how it will look. I can also add the probabilistic frequencies. Let me know, if this is passed then will generate the complete analysis by Monday. 
 ![graphical alignment](https://github.com/sablokgaurav/arabidopsis_maf_cap_acessions_alignments/blob/main/Rplot.jpeg)
 
 Gaurav Sablok \
