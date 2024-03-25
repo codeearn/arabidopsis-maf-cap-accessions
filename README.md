@@ -29,6 +29,8 @@ cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
 ![graphical alignment](https://github.com/sablokgaurav/arabidopsis_maf_cap_acessions_alignments/blob/main/Rplot.jpeg)
 ![phylogeny](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions_alignments/blob/main/phylogeny.jpeg)
 
+> By the middle of the week, adding the complete analysis, so please kindly let me know the other collaborators and will invite them. \
+
 Gaurav Sablok \
 Academic Staff Member \
 Bioinformatics \
