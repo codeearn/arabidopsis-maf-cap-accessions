@@ -7,7 +7,7 @@
 >>>> The first approach that i took is to use the [Liftoff](https://github.com/sablokgaurav/Liftoff)
 >>>>> the second approach is to use the [codebin](https://github.com/lastz/lastz) to use the gene sequences for the corresponding genes and then align them to the genome of all these accesssion and extract those regions and then make a alignment of the same. The code along with the runs files are present within the project execution files. 
 
-## To run this, run all of these in the following order: 
+### To run this, run all of these in the following order: 
 > downloadrecords.sh: Run this to download the sequence records from the ebi or the ena.
 > alignmentrecords.sh: Run this to make the corresponding alignments, this follows the lift off approach by transferring the annotations.
 > alignmentrecordnon.sh: Run this to make the corresponding alignments, based on the genome alignment and the gene anchor approach.
@@ -19,12 +19,14 @@
 > Uncompress the tar archive by using the ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
 >> if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com
 
+### The genome files for this project are present in the following folder \
+> https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/tree/main/arabidopsis_genome_files
+
 ### Normalize your header by running this before running the analysis
 ```
 cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
 # the output fasta will be used for all the analysis. 
 ```
-
 ##### This is how the alignment plot will look. There will be more sequences but this is an example to show how it will look. I can also add the probabilistic frequencies. Let me know, if this is passed then will generate the complete analysis by Monday. 
 ![graphical alignment](https://github.com/sablokgaurav/arabidopsis_maf_cap_acessions_alignments/blob/main/Rplot.jpeg)
 ![phylogeny](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions_alignments/blob/main/phylogeny.jpeg)
