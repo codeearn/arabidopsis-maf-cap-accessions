@@ -4,14 +4,14 @@
 ## the accession used for the analysis are listed here: [accession](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md) and the genome files for this project are present in the following folder: [genomefiles](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/tree/main/arabidopsis_genome_files)
 
 ### To run this, run all of these in the following order: 
-> **downloadrecords.sh**: Run this to download the sequence records from the ebi or the ena.
-> **alignmentrecords.sh**: Run this to make the corresponding alignments, this follows the lift off approach by transferring the annotations.
-> **alignmentrecordnon.sh**: Run this to make the corresponding alignments, based on the genome alignment and the gene anchor approach.
-> **phylogeny.R**: Run this to make the phylogeny.
-> **visualfreq.R**: Run this to make the visualization plot.
-> **map.R**: Run this to make the genome phylogeny along with the alignment placement on the phylogeny.
-> **alignmentphylogeny.py**: Run this if you want to run the alignment and the phylogeny as a python version.
-> **manhattanplot.R**: Make the manhattan plot from the alignments.
+**downloadrecords.sh**: Run this to download the sequence records from the ebi or the ena. \
+**alignmentrecords.sh**: Run this to make the corresponding alignments, this follows the lift off approach by transferring the annotations. \
+**alignmentrecordnon.sh**: Run this to make the corresponding alignments, based on the genome alignment and the gene anchor approach. \
+**phylogeny.R**: Run this to make the phylogeny. \
+**visualfreq.R**: Run this to make the visualization plot. \
+**map.R**: Run this to make the genome phylogeny along with the alignment placement on the phylogeny. \
+**alignmentphylogeny.py**: Run this if you want to run the alignment and the phylogeny as a python version. \
+**manhattanplot.R**: Make the manhattan plot from the alignments.
 > Uncompress the tar archive by using the ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
 >> if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com
 
