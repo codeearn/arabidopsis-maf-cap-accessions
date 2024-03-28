@@ -1,7 +1,7 @@
 #### these are the arabidopsis accessions studied and downloaded
 -------------------------------------------------------------------------------
 | accession	description                                                       |
-
+-------------------------------------------------------------------------------
 | GCA_946402385	| AUZE-A-5.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
 | GCA_946403025	| FERR-A-8.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
 | GCA_946403525	| BELC-C-10.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
