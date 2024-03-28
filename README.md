@@ -1,11 +1,5 @@
 # arabidopsis_maf_cap_accessions
-> arabidopsis alignments for the maf and the cap gene clusters. multiple alignment and visualization of the aligned genes and clusters. 
->> The genes that are used are At5g65050-At5g65080, containing 4 genes (Maf2-5 cluster of genes) and At2g13540 CBP80 Cap-binding protein 80.
->> The corresponding genome assemblies and the download link to the assemblies along with the code to download, align, annotate and draw the alignments. 
->> Analysis for the arabidopsis genomes and the accessions cited in the paper: https://www.nature.com/articles/s41586-023-06062-z#data-availability
->> Analysis outlay: since the genomes reported in the paper have not been annotated, I took two approaches to annotated the genome.
->> The first approach that i took is to use the [Liftoff](https://github.com/sablokgaurav/Liftoff)
->> the second approach is to use the [lastz](https://github.com/lastz/lastz) to use the gene sequences for the corresponding genes and then align them to the genome of all these accesssion and extract those regions and then make a alignment of the same. The code along with the runs files are present within the project execution files.
+> arabidopsis alignments for the maf and the cap gene clusters. multiple alignment and visualization of the aligned genes and clusters. The genes that are used are At5g65050-At5g65080, containing 4 genes (Maf2-5 cluster of genes) and At2g13540 CBP80 Cap-binding protein 80. The corresponding genome assemblies and the download link to the assemblies along with the code to download, align, annotate and draw the alignments. Analysis for the arabidopsis genomes and the accessions cited in the paper: https://www.nature.com/articles/s41586-023-06062-z#data-availability. Analysis outlay: since the genomes reported in the paper have not been annotated, I took two approaches to annotated the genome. The first approach that i took is to use the [Liftoff](https://github.com/sablokgaurav/Liftoff). The second approach is to use the [lastz](https://github.com/lastz/lastz) to use the gene sequences for the corresponding genes and then align them to the genome of all these accesssion and extract those regions and then make a alignment of the same. The code along with the runs files are present within the project execution files.
 
 ## the accession used for the analysis are listed here: [accession](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md) and the genome files for this project are present in the following folder: [genomefiles](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/tree/main/arabidopsis_genome_files)
 
@@ -30,7 +24,7 @@ cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
 ![graphical alignment](https://github.com/sablokgaurav/arabidopsis_maf_cap_acessions_alignments/blob/main/Rplot.jpeg)
 ![phylogeny](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions_alignments/blob/main/phylogeny.jpeg)
 
-> By the middle of the week, adding the complete analysis, so please kindly let me know the other collaborators and will invite them. 
+> By next week Zoran, please share with them the complete analysis. 
 
 Gaurav Sablok \
 Academic Staff Member \
