@@ -20,7 +20,7 @@
 cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
 # the output fasta will be used for all the analysis. 
 ```
-##### Example alignment and the phylogeny visualization \
+##### Example alignment and the phylogeny visualization 
 ![graphical alignment](https://github.com/sablokgaurav/arabidopsis_maf_cap_acessions_alignments/blob/main/Rplot.jpeg)
 ![phylogeny](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions_alignments/blob/main/phylogeny.jpeg)
 
