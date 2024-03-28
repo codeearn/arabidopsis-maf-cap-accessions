@@ -6,6 +6,8 @@
 	Share with me via Nextcloud
 </a>
 
+###### moved the arabidopsis genome files to the next cloud and the link is [nextcloud](https://boxup.uni-potsdam.de/s/P55Bd8M6Mkc9pgN) \
+
 ### To run this, run all of these in the following order: methods and the corresponding codes and how to use them 
 the accession used for the analysis are listed here: [accession](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md) and the genome files for this project are present in the following folder: [genomefiles](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/tree/main/arabidopsis_genome_files) \
 **downloadrecords.sh**: Run this to download the sequence records from the ebi or the ena. \
