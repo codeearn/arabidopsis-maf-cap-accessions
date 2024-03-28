@@ -17,7 +17,6 @@ the accession used for the analysis are listed here: [accession](https://github.
 **visualfreq.R**: Run this to make the visualization plot. \
 **map.R**: Run this to make the genome phylogeny along with the alignment placement on the phylogeny. \
 **alignmentphylogeny.py**: Run this if you want to run the alignment and the phylogeny as a python version. \
-**manhattanplot.R**: Make the manhattan plot from the alignments.
 > Uncompress the tar archive by using the ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
 >> if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com
 
