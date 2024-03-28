@@ -1,6 +1,6 @@
 #### these are the arabidopsis accessions studied and downloaded
 
-> [PRJEB55353 ENA browser link](https://www.ebi.ac.uk/ena/browser/view/PRJEB55353?show=related-records) \
+> [PRJEB55353 ENA browser link](https://www.ebi.ac.uk/ena/browser/view/PRJEB55353?show=related-records) 
 
 | Accession |  Description |
 |---------------|---------------------------------------------------------------|
