@@ -75,6 +75,7 @@
 ---------------------------------------------------------------------------------
 
 >[PRJEB50694 ENA browser link](https://www.ebi.ac.uk/ena/browser/view/PRJEB50694?show=related-records)
+
 | Accession |  Description |
 |---------------|---------------------------------------------------------------|
 | GCA_946499665	| Ey15-2.9994.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
