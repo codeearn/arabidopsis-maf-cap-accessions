@@ -1,4 +1,7 @@
 #### these are the arabidopsis accessions studied and downloaded
+
+> [PRJEB55353 ENA browser link](https://www.ebi.ac.uk/ena/browser/view/PRJEB55353?show=related-records) \
+
 | Accession |  Description |
 |---------------|---------------------------------------------------------------|
 | GCA_946402385	| AUZE-A-5.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
