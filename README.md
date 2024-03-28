@@ -5,7 +5,7 @@
 >> Analysis for the arabidopsis genomes and the accessions cited in the paper: [paper link](https://www.nature.com/articles/s41586-023-06062-z#data-availability
 >> Analysis outlay: since the genomes reported in the paper have not been annotated, I took two approaches to annotated the genome.
 >> The first approach that i took is to use the [Liftoff](https://github.com/sablokgaurav/Liftoff)
->> the second approach is to use the [codebin](https://github.com/lastz/lastz) to use the gene sequences for the corresponding genes and then align them to the genome of all these accesssion and extract those regions and then make a alignment of the same. The code along with the runs files are present within the project execution files.
+>> the second approach is to use the [lastz](https://github.com/lastz/lastz) to use the gene sequences for the corresponding genes and then align them to the genome of all these accesssion and extract those regions and then make a alignment of the same. The code along with the runs files are present within the project execution files.
 
 ##### the accession used for the analysis are listed here: 
 > [accession](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md)
