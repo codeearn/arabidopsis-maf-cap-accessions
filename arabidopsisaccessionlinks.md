@@ -81,3 +81,9 @@
 | GCA_946499665	| Ey15-2.9994.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
 | GCA_946499705 |	Col-0.6909.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
 -----------------------------------------------------------------------------------
+>[PRJEB51511](https://www.ebi.ac.uk/ena/browser/view/PRJEB51511?show=related-records)
+
+| Accession |  Description |
+|---------------|---------------------------------------------------------------|
+| GCA_933208065	| ddAraThal4.1 assembly for Arabidopsis thaliana |
+---------------------------------------------------------------------------------
