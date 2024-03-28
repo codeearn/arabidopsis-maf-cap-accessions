@@ -53,3 +53,23 @@
 | GCA_946415625	| MONTM-B-7.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
 | GCA_946415655	| LACR-C-14.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
 ---------------------------------------------------------------------------------
+> [PRJEB55632 ENA browser link](https://www.ebi.ac.uk/ena/browser/view/PRJEB55632?show=related-records) 
+
+| Accession |  Description |
+|---------------|---------------------------------------------------------------|
+| GCA_949796375	| 9336 assembly for Arabidopsis thaliana |
+| GCA_949796385	| 9852 assembly for Arabidopsis thaliana |
+| GCA_949796415	| 9762 assembly for Arabidopsis thaliana |
+| GCA_949796455	| 7143 assembly for Arabidopsis thaliana |
+| GCA_949796475	| 9883 assembly for Arabidopsis thaliana |
+| GCA_949796485	| 9900 assembly for Arabidopsis thaliana |
+| GCA_949796525	| 6923 assembly for Arabidopsis thaliana |
+| GCA_949796605	| 9806 assembly for Arabidopsis thaliana |
+| GCA_949796635	| 8285 assembly for Arabidopsis thaliana |
+| GCA_949796645	| 6137 assembly for Arabidopsis thaliana |
+| GCA_949796655	| 9744 assembly for Arabidopsis thaliana |
+| GCA_949796665	| 9879 assembly for Arabidopsis thaliana |
+| GCA_949796705	| 9503 assembly for Arabidopsis thaliana |
+| GCA_949796715	| 9830 assembly for Arabidopsis thaliana |
+| GCA_949796755	| 9847 assembly for Arabidopsis thaliana |
+---------------------------------------------------------------------------------
