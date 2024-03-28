@@ -1,5 +1,4 @@
 # direct apis for the ena archives and download links for the arabidopsis files
-# code: for i in $(cat arabidopsisaccessionlinks.md | grep GCA | cut -f 2 -d "|"); do echo "curl https://www.ebi.ac.uk/ena/browser/api/fasta/$i.1\?download\=true\&gzip\=true -o $i.gz"; done
 curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946402385.1\?download\=true\&gzip\=true -o GCA_946402385.gz
 curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946403025.1\?download\=true\&gzip\=true -o GCA_946403025.gz
 curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946403525.1\?download\=true\&gzip\=true -o GCA_946403525.gz
