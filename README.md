@@ -20,8 +20,12 @@ the accession used for the analysis are listed here: [accession](https://github.
 >> if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com
 
 ### code for generating the direct apis for the ena
-
-
+```
+for i in $(cat arabidopsisaccessionlinks.md | grep GCA | cut -f 2 -d "|");
+do
+         echo "curl https://www.ebi.ac.uk/ena/browser/api/fasta/$i.1\?download\=true\&gzip\=true -o $i.gz";
+done
+```
 ### Normalize your header by running this before running the analysis
 ```
 cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
