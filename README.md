@@ -19,7 +19,7 @@ the accession used for the analysis are listed here: [accession](https://github.
 > Uncompress the tar archive by using the ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
 >> if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com
 
-### code for generating the direct apis for the ena
+### code for generating the direct apis for the arabidopsis ena
 ```
 for i in $(cat arabidopsisaccessionlinks.md | grep GCA | cut -f 2 -d "|");
 do
