@@ -2,6 +2,7 @@
 -------------------------------------------------------------------------------
 | accession	description                                                       |
 -------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 | GCA_946402385	| AUZE-A-5.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
 | GCA_946403025	| FERR-A-8.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
 | GCA_946403525	| BELC-C-10.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
@@ -50,5 +51,4 @@
 | GCA_946415445	| IP-Cas-6.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
 | GCA_946415625	| MONTM-B-7.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
 | GCA_946415655	| LACR-C-14.PacbioHiFiAssembly assembly for Arabidopsis thaliana |
-
 ---------------------------------------------------------------------------------
