@@ -1,67 +1,67 @@
-# direct apis for the ena archives and download links for the arabidopsis files
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946402385.1\?download\=true\&gzip\=true -o GCA_946402385.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946403025.1\?download\=true\&gzip\=true -o GCA_946403025.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946403525.1\?download\=true\&gzip\=true -o GCA_946403525.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946404075.1\?download\=true\&gzip\=true -o GCA_946404075.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946404385.1\?download\=true\&gzip\=true -o GCA_946404385.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946404515.1\?download\=true\&gzip\=true -o GCA_946404515.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946404995.1\?download\=true\&gzip\=true -o GCA_946404995.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946405265.1\?download\=true\&gzip\=true -o GCA_946405265.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946405525.1\?download\=true\&gzip\=true -o GCA_946405525.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946405545.1\?download\=true\&gzip\=true -o GCA_946405545.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946405725.1\?download\=true\&gzip\=true -o GCA_946405725.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946405905.1\?download\=true\&gzip\=true -o GCA_946405905.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406325.1\?download\=true\&gzip\=true -o GCA_946406325.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406525.1\?download\=true\&gzip\=true -o GCA_946406525.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406595.1\?download\=true\&gzip\=true -o GCA_946406595.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406625.1\?download\=true\&gzip\=true -o GCA_946406625.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406735.1\?download\=true\&gzip\=true -o GCA_946406735.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406895.1\?download\=true\&gzip\=true -o GCA_946406895.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406975.1\?download\=true\&gzip\=true -o GCA_946406975.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946407145.1\?download\=true\&gzip\=true -o GCA_946407145.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946407795.1\?download\=true\&gzip\=true -o GCA_946407795.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946408365.1\?download\=true\&gzip\=true -o GCA_946408365.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946408575.1\?download\=true\&gzip\=true -o GCA_946408575.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946408975.1\?download\=true\&gzip\=true -o GCA_946408975.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946409395.1\?download\=true\&gzip\=true -o GCA_946409395.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946409815.1\?download\=true\&gzip\=true -o GCA_946409815.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946409825.1\?download\=true\&gzip\=true -o GCA_946409825.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946410165.1\?download\=true\&gzip\=true -o GCA_946410165.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946410485.1\?download\=true\&gzip\=true -o GCA_946410485.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946411375.1\?download\=true\&gzip\=true -o GCA_946411375.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946411425.1\?download\=true\&gzip\=true -o GCA_946411425.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946411655.1\?download\=true\&gzip\=true -o GCA_946411655.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946411805.1\?download\=true\&gzip\=true -o GCA_946411805.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946411885.1\?download\=true\&gzip\=true -o GCA_946411885.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946412005.1\?download\=true\&gzip\=true -o GCA_946412005.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946412065.1\?download\=true\&gzip\=true -o GCA_946412065.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946412225.1\?download\=true\&gzip\=true -o GCA_946412225.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946413285.1\?download\=true\&gzip\=true -o GCA_946413285.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946413305.1\?download\=true\&gzip\=true -o GCA_946413305.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946413405.1\?download\=true\&gzip\=true -o GCA_946413405.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946413935.1\?download\=true\&gzip\=true -o GCA_946413935.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946414125.1\?download\=true\&gzip\=true -o GCA_946414125.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946414305.1\?download\=true\&gzip\=true -o GCA_946414305.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946415005.1\?download\=true\&gzip\=true -o GCA_946415005.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946415165.1\?download\=true\&gzip\=true -o GCA_946415165.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946415445.1\?download\=true\&gzip\=true -o GCA_946415445.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946415625.1\?download\=true\&gzip\=true -o GCA_946415625.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946415655.1\?download\=true\&gzip\=true -o GCA_946415655.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796375.1\?download\=true\&gzip\=true -o GCA_949796375.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796385.1\?download\=true\&gzip\=true -o GCA_949796385.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796415.1\?download\=true\&gzip\=true -o GCA_949796415.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796455.1\?download\=true\&gzip\=true -o GCA_949796455.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796475.1\?download\=true\&gzip\=true -o GCA_949796475.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796485.1\?download\=true\&gzip\=true -o GCA_949796485.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796525.1\?download\=true\&gzip\=true -o GCA_949796525.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796605.1\?download\=true\&gzip\=true -o GCA_949796605.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796635.1\?download\=true\&gzip\=true -o GCA_949796635.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796645.1\?download\=true\&gzip\=true -o GCA_949796645.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796655.1\?download\=true\&gzip\=true -o GCA_949796655.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796665.1\?download\=true\&gzip\=true -o GCA_949796665.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796705.1\?download\=true\&gzip\=true -o GCA_949796705.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796715.1\?download\=true\&gzip\=true -o GCA_949796715.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796755.1\?download\=true\&gzip\=true -o GCA_949796755.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946499665.1\?download\=true\&gzip\=true -o GCA_946499665.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946499705.1\?download\=true\&gzip\=true -o GCA_946499705.gz
-curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_933208065.1\?download\=true\&gzip\=true -o GCA_933208065.gz
+# direct apis for the ena archives and download links for the arabidopsis files \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946402385.1\?download\=true\&gzip\=true -o GCA_946402385.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946403025.1\?download\=true\&gzip\=true -o GCA_946403025.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946403525.1\?download\=true\&gzip\=true -o GCA_946403525.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946404075.1\?download\=true\&gzip\=true -o GCA_946404075.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946404385.1\?download\=true\&gzip\=true -o GCA_946404385.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946404515.1\?download\=true\&gzip\=true -o GCA_946404515.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946404995.1\?download\=true\&gzip\=true -o GCA_946404995.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946405265.1\?download\=true\&gzip\=true -o GCA_946405265.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946405525.1\?download\=true\&gzip\=true -o GCA_946405525.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946405545.1\?download\=true\&gzip\=true -o GCA_946405545.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946405725.1\?download\=true\&gzip\=true -o GCA_946405725.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946405905.1\?download\=true\&gzip\=true -o GCA_946405905.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406325.1\?download\=true\&gzip\=true -o GCA_946406325.gz \ 
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406525.1\?download\=true\&gzip\=true -o GCA_946406525.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406595.1\?download\=true\&gzip\=true -o GCA_946406595.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406625.1\?download\=true\&gzip\=true -o GCA_946406625.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406735.1\?download\=true\&gzip\=true -o GCA_946406735.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406895.1\?download\=true\&gzip\=true -o GCA_946406895.gz \ 
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946406975.1\?download\=true\&gzip\=true -o GCA_946406975.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946407145.1\?download\=true\&gzip\=true -o GCA_946407145.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946407795.1\?download\=true\&gzip\=true -o GCA_946407795.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946408365.1\?download\=true\&gzip\=true -o GCA_946408365.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946408575.1\?download\=true\&gzip\=true -o GCA_946408575.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946408975.1\?download\=true\&gzip\=true -o GCA_946408975.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946409395.1\?download\=true\&gzip\=true -o GCA_946409395.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946409815.1\?download\=true\&gzip\=true -o GCA_946409815.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946409825.1\?download\=true\&gzip\=true -o GCA_946409825.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946410165.1\?download\=true\&gzip\=true -o GCA_946410165.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946410485.1\?download\=true\&gzip\=true -o GCA_946410485.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946411375.1\?download\=true\&gzip\=true -o GCA_946411375.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946411425.1\?download\=true\&gzip\=true -o GCA_946411425.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946411655.1\?download\=true\&gzip\=true -o GCA_946411655.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946411805.1\?download\=true\&gzip\=true -o GCA_946411805.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946411885.1\?download\=true\&gzip\=true -o GCA_946411885.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946412005.1\?download\=true\&gzip\=true -o GCA_946412005.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946412065.1\?download\=true\&gzip\=true -o GCA_946412065.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946412225.1\?download\=true\&gzip\=true -o GCA_946412225.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946413285.1\?download\=true\&gzip\=true -o GCA_946413285.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946413305.1\?download\=true\&gzip\=true -o GCA_946413305.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946413405.1\?download\=true\&gzip\=true -o GCA_946413405.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946413935.1\?download\=true\&gzip\=true -o GCA_946413935.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946414125.1\?download\=true\&gzip\=true -o GCA_946414125.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946414305.1\?download\=true\&gzip\=true -o GCA_946414305.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946415005.1\?download\=true\&gzip\=true -o GCA_946415005.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946415165.1\?download\=true\&gzip\=true -o GCA_946415165.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946415445.1\?download\=true\&gzip\=true -o GCA_946415445.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946415625.1\?download\=true\&gzip\=true -o GCA_946415625.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946415655.1\?download\=true\&gzip\=true -o GCA_946415655.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796375.1\?download\=true\&gzip\=true -o GCA_949796375.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796385.1\?download\=true\&gzip\=true -o GCA_949796385.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796415.1\?download\=true\&gzip\=true -o GCA_949796415.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796455.1\?download\=true\&gzip\=true -o GCA_949796455.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796475.1\?download\=true\&gzip\=true -o GCA_949796475.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796485.1\?download\=true\&gzip\=true -o GCA_949796485.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796525.1\?download\=true\&gzip\=true -o GCA_949796525.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796605.1\?download\=true\&gzip\=true -o GCA_949796605.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796635.1\?download\=true\&gzip\=true -o GCA_949796635.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796645.1\?download\=true\&gzip\=true -o GCA_949796645.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796655.1\?download\=true\&gzip\=true -o GCA_949796655.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796665.1\?download\=true\&gzip\=true -o GCA_949796665.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796705.1\?download\=true\&gzip\=true -o GCA_949796705.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796715.1\?download\=true\&gzip\=true -o GCA_949796715.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_949796755.1\?download\=true\&gzip\=true -o GCA_949796755.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946499665.1\?download\=true\&gzip\=true -o GCA_946499665.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946499705.1\?download\=true\&gzip\=true -o GCA_946499705.gz \
+curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_933208065.1\?download\=true\&gzip\=true -o GCA_933208065.gz \
