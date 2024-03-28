@@ -1,0 +1,97 @@
+[
+{"sample_accession":"SAMEA110648787","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"2943236708","run_accession":"ERR10084083"}
+,
+{"sample_accession":"SAMEA110648795","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"8443565479","run_accession":"ERR10084521"}
+,
+{"sample_accession":"SAMEA110648779","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"7144891774","run_accession":"ERR10084527"}
+,
+{"sample_accession":"SAMEA110648788","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"8911136757","run_accession":"ERR10084529"}
+,
+{"sample_accession":"SAMEA110648820","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"8868466787","run_accession":"ERR10084536"}
+,
+{"sample_accession":"SAMEA110648811","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"","run_accession":"ERR10084537"}
+,
+{"sample_accession":"SAMEA110648796","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"7983810784","run_accession":"ERR10084538"}
+,
+{"sample_accession":"SAMEA110648789","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"8311208619","run_accession":"ERR10084604"}
+,
+{"sample_accession":"SAMEA110648790","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"8241292723","run_accession":"ERR10084900"}
+,
+{"sample_accession":"SAMEA110648798","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"3096645795","run_accession":"ERR10084910"}
+,
+{"sample_accession":"SAMEA110648823","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"4379477893","run_accession":"ERR10084918"}
+,
+{"sample_accession":"SAMEA110648813","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"8742601317","run_accession":"ERR10084920"}
+,
+{"sample_accession":"SAMEA110648783","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"","run_accession":"ERR10084928"}
+,
+{"sample_accession":"SAMEA110648792","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"7791519642","run_accession":"ERR10084929"}
+,
+{"sample_accession":"SAMEA110648800","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"","run_accession":"ERR10084934"}
+,
+{"sample_accession":"SAMEA110648804","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"12338168931","run_accession":"ERR10084935"}
+,
+{"sample_accession":"SAMEA110648815","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"6953510843","run_accession":"ERR10084939"}
+,
+{"sample_accession":"SAMEA110648816","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"","run_accession":"ERR10084946"}
+,
+{"sample_accession":"SAMEA110648777","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"6762718034","run_accession":"ERR10084057"}
+,
+{"sample_accession":"SAMEA110648785","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"6824877802","run_accession":"ERR10084058"}
+,
+{"sample_accession":"SAMEA110648817","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"11870319702","run_accession":"ERR10084073"}
+,
+{"sample_accession":"SAMEA110648794","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"6385771277","run_accession":"ERR10084076"}
+,
+{"sample_accession":"SAMEA110648776","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"11843780069","run_accession":"ERR10083811"}
+,
+{"sample_accession":"SAMEA110648780","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"8752264126","run_accession":"ERR10084602"}
+,
+{"sample_accession":"SAMEA110648812","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"","run_accession":"ERR10084904"}
+,
+{"sample_accession":"SAMEA110648793","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"10598667761","run_accession":"ERR10084060"}
+,
+{"sample_accession":"SAMEA110648803","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"","run_accession":"ERR10084917"}
+,
+{"sample_accession":"SAMEA110648814","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"7809327020","run_accession":"ERR10084931"}
+,
+{"sample_accession":"SAMEA110648806","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"7341746365","run_accession":"ERR10084948"}
+,
+{"sample_accession":"SAMEA110648807","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"10160309118","run_accession":"ERR10084952"}
+,
+{"sample_accession":"SAMEA110648808","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"7947036941","run_accession":"ERR10084958"}
+,
+{"sample_accession":"SAMEA110648809","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"10841041535","run_accession":"ERR10084063"}
+,
+{"sample_accession":"SAMEA110648786","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"6575356085","run_accession":"ERR10084077"}
+,
+{"sample_accession":"SAMEA110648801","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"11103577378","run_accession":"ERR10084078"}
+,
+{"sample_accession":"SAMEA110648778","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"9183785679","run_accession":"ERR10084082"}
+,
+{"sample_accession":"SAMEA110648818","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"6538767343","run_accession":"ERR10084084"}
+,
+{"sample_accession":"SAMEA110648810","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"13381867778","run_accession":"ERR10084518"}
+,
+{"sample_accession":"SAMEA110648819","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"6657383572","run_accession":"ERR10084522"}
+,
+{"sample_accession":"SAMEA110648802","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"15083478956","run_accession":"ERR10084532"}
+,
+{"sample_accession":"SAMEA110648821","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"6671462318","run_accession":"ERR10084897"}
+,
+{"sample_accession":"SAMEA110648781","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"","run_accession":"ERR10084899"}
+,
+{"sample_accession":"SAMEA110648797","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"10036744398","run_accession":"ERR10084905"}
+,
+{"sample_accession":"SAMEA110648822","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"4071063292","run_accession":"ERR10084908"}
+,
+{"sample_accession":"SAMEA110648782","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"6424988060","run_accession":"ERR10084914"}
+,
+{"sample_accession":"SAMEA110648791","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"","run_accession":"ERR10084922"}
+,
+{"sample_accession":"SAMEA110648799","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"","run_accession":"ERR10084926"}
+,
+{"sample_accession":"SAMEA110648784","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"","run_accession":"ERR10084937"}
+,
+{"sample_accession":"SAMEA110648805","tax_id":"3702","scientific_name":"Arabidopsis thaliana","bam_bytes":"10312350227","run_accession":"ERR10084942"}
+]
