@@ -4,10 +4,9 @@
 
 <a target="_blank" rel="noreferrer noopener" href="https://nextcloud.com/sharing#sablok@boxup.uni-potsdam.de" style="padding:10px;background-color:#004260;color:#ffffff;border-radius:3px;padding-left:4px;">
 	<span style="background-image:url(https://boxup.uni-potsdam.de/apps/theming/image/logo?useSvg=1&v=25);width:50px;height:30px;position:relative;top:8px;background-size:contain;display:inline-block;background-repeat:no-repeat; background-position: center center;"></span>
-	moved the arabidopsis genome files to the next cloud and the link is [nextcloud](https://boxup.uni-potsdam.de/s/P55Bd8M6Mkc9pgN) 
 </a>
 
-
+#### moved the arabidopsis genome files to the next cloud and the link is [nextcloud](https://boxup.uni-potsdam.de/s/P55Bd8M6Mkc9pgN) 
 
 ### To run this, run all of these in the following order: methods and the corresponding codes and how to use them 
 the accession used for the analysis are listed here: [accession](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md) and the genome files for this project are present in the following folder: [genomefiles](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/tree/main/arabidopsis_genome_files) \
