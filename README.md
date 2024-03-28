@@ -22,7 +22,7 @@
 > Uncompress the tar archive by using the ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
 >> if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com
 
-### The genome files for this project are present in the following folder \
+### The genome files for this project are present in the following folder 
 > https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/tree/main/arabidopsis_genome_files
 
 ### Normalize your header by running this before running the analysis
