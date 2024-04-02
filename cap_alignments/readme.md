@@ -8,7 +8,7 @@
                   (#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/blob/main/directapis.txt)
 for i in *.fasta;
 do
-      miniprot --gff caprpotein.fasta $i > ${i%.*}.gff;
+      miniprot --gff $i caprpotein.fasta  > ${i%.*}.gff;
 done
 ```
 
