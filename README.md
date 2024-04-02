@@ -42,7 +42,7 @@ arabidopsis genome files have been moved to the nextcloud and the links are avai
 ├── README.md \
 ├── r_scripts **r scripts for analysis** \
 ├── sampleplot.jpeg \
-└── shell_scripts **shell scripts for analysis** \
+└── shell_scripts **shell scripts for analysis** 
 
 **Uncompress the tar archive by using the** ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
 **if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com**
