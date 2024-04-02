@@ -5,6 +5,7 @@
 
 #### The parameters for the alignments are given below: sourcing the fasta genome files from [directapis]
                                (#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/blob/main/directapis.txt)
+                               
 ```
 # AT5G65050.fasta
 # AT5G65060.fasta
@@ -16,7 +17,7 @@ do
 done
 ```
 
-#### loop this over the each gene. the correponding gene alignments for each gene are present in 
+#### loop this over the each gene. the correponding gene alignments for each gene \
 
 [AT5G65050](#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/tree/main/maf_alignments/AT5G65050) \
 [AT5G65060](#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/tree/main/maf_alignments/AT5G65060) \
