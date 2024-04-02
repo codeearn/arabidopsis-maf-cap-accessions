@@ -1,0 +1,8 @@
+##gff-version 3
+##PAF	AT5G65060.1	197	0	197	+	ENA|OX291734|OX291734.1	29782122	28783335	28787895	510	678	0	AS:i:651	ms:i:773	np:i:178	fs:i:0	st:i:1	da:i:0	do:i:30	cg:Z:61M2084V19M202N20M29D34M423N28M1176N34M	cs:Z::3*aaaR:21*aatK:19*ctcV*gtcA:8*aagD:5*aaN~gt2081ag-c:16*gaaK:2~gt202ag:5*actI:5*ctcH:8-aggttagcacaaagacacttttatctccctcttcttctgatgaaaaatacttttttttttcttttcttttgggcgaattatgaatac:10*gcaV:3*actS:3*ctgM:10*actI:2*aggK:1~gt423ag*aacT*ttgE:1*gaaM*actM*aatE:1*cttM*atgK*atcS:1*tccQ*aaaE*catR:1*aacK:2*agaI:4*actI:4~gt1176ag:34
+ENA|OX291734|OX291734.1	miniprot	mRNA	28783336	28787895	773	+	.	ID=MP000001;Rank=1;Identity=0.7522;Positive=0.7876;StopCodon=1;Target=AT5G65060.1 1 197
+ENA|OX291734|OX291734.1	miniprot	CDS	28783336	28783520	276	+	0	Parent=MP000001;Rank=1;Identity=0.9194;Target=AT5G65060.1 1 61
+ENA|OX291734|OX291734.1	miniprot	CDS	28785602	28785659	93	+	1	Parent=MP000001;Rank=1;Identity=0.9474;Target=AT5G65060.1 62 81
+ENA|OX291734|OX291734.1	miniprot	CDS	28785862	28786110	183	+	0	Parent=MP000001;Rank=1;Identity=0.5663;Target=AT5G65060.1 82 135
+ENA|OX291734|OX291734.1	miniprot	CDS	28786534	28786617	55	+	0	Parent=MP000001;Rank=1;Identity=0.5000;Target=AT5G65060.1 136 163
+ENA|OX291734|OX291734.1	miniprot	CDS	28787794	28787895	166	+	0	Parent=MP000001;Rank=1;Identity=1.0000;StopCodon=1;Target=AT5G65060.1 164 197
