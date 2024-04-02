@@ -20,7 +20,7 @@ done
 
 #### results are located at: 
 
-[AT5G65050](#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/tree/main/maf_alignments/AT5G65050) \
-[AT5G65060](#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/tree/main/maf_alignments/AT5G65060) \
-[AT5G65070](#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/tree/main/maf_alignments/AT5G65070) \
-[AT5G65080](#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/tree/main/maf_alignments/AT5G65080) \
+[AT5G65050](https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/tree/main/maf_alignments/AT5G65050) \
+[AT5G65060](https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/tree/main/maf_alignments/AT5G65060) \
+[AT5G65070](https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/tree/main/maf_alignments/AT5G65070) \
+[AT5G65080](https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/tree/main/maf_alignments/AT5G65080) 
