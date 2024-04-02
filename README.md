@@ -5,19 +5,16 @@
 ### To run this, run all of these in the following order: methods and the corresponding codes and how to use them 
 the accession used for the analysis are listed here: [accession](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md) 
 1. **downloadrecords.sh**: Run this to download the sequence records from the ebi or the ena. Either you can run this or you can run the code below to generate the direct apis for the download \
-          *code for generating the direct apis for the arabidopsis ena*
-   
 ```
+    *code for generating the direct apis for the arabidopsis ena*
 for i in $(cat arabidopsisaccessionlinks.md | grep GCA | cut -f 2 -d "|");
 do
          echo "curl https://www.ebi.ac.uk/ena/browser/api/fasta/$i.1\?download\=true\&gzip\=true -o $i.gz";
 done
 ```
-arabidopsis genome files have been moved to the nextcloud and the \
-       links are available in the [directapis](#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/blob/main/directapis.txt). 
-        
-          *Normalize your header by running this before running the analysis*
+arabidopsis genome files have been moved to the nextcloud and the links are available in the [directapis](https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/blob/main/directapis.txt). 
 ```
+          *Normalize your header by running this before running the analysis*
           cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
           # the output fasta will be used for all the analysis. 
 ```
