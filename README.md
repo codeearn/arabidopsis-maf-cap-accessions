@@ -18,11 +18,10 @@ done
           cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
           # the output fasta will be used for all the analysis. 
 ```
-2. **alignmentrecords.sh**: Run this to make the corresponding alignments, this follows the lift off approach by transferring the annotations. \
-3. **alignmentrecordnon.sh**: Run this to make the corresponding alignments, based on the genome alignment and the gene anchor approach. \
-4. **phylogeny.R**: Run this to make the phylogeny. \
-5. **visualfreq.R**: Run this to make the visualization plot. \
-6. **map.R**: Run this to make the genome phylogeny along with the alignment placement on the phylogeny. \
+2. **alignmentrecords.sh**: Run this to make the corresponding alignments, this follows the lift off approach by transferring the annotations. 
+4. **phylogeny.R**: Run this to make the phylogeny. 
+5. **visualfreq.R**: Run this to make the visualization plot. 
+6. **map.R**: Run this to make the genome phylogeny along with the alignment placement on the phylogeny. 
    
 **Uncompress the tar archive by using the** ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
 **if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com**
