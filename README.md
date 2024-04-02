@@ -24,7 +24,7 @@ arabidopsis genome files have been moved to the nextcloud and the links are avai
 5. **visualfreq.R**: Run this to make the visualization plot. 
 6. **map.R**: Run this to make the genome phylogeny along with the alignment placement on the phylogeny.
 
-**How to read this github repository** \
+**How to read this github repository** 
 
 ├── allassembly.md **all accession that were studied** \
 ├── arabidopsisaccessionlinks.md **links to the accession and the corresponding ENA archives** \
