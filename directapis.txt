@@ -1,4 +1,4 @@
-# direct apis for the ena archives and download links for the arabidopsis files \
+# direct apis for the ena archives and download links for the arabidopsis files 
 
 curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946402385.1\?download\=true\&gzip\=true -o GCA_946402385.gz \
 curl https://www.ebi.ac.uk/ena/browser/api/fasta/GCA_946403025.1\?download\=true\&gzip\=true -o GCA_946403025.gz \
