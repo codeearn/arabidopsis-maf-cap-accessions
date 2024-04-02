@@ -26,23 +26,23 @@ arabidopsis genome files have been moved to the nextcloud and the links are avai
 
 **How to read this github repository** \
 
-├── allassembly.md **all accession that were studied**
-├── arabidopsisaccessionlinks.md **links to the accession and the corresponding ENA archives**
-├── arabidopsis_paper.pdf **arabidopsis paper**
-├── cap_alignments **folder containing cap alignments with a readme as how to generate them**
-├── cap_final_joined_fasta **folder containing the final joined fasta**
-├── cap_genes **folder containing the cap genes**
-├── directapis.txt **directapis for the ena**
-├── LICENSE
-├── maf_alignments **folder containing maf alignments with a readme as how to generate them**
-├── maf_final_joined_fasta **folder containing the final joined fasta**
-├── maf_genes  **folder containing the cap genes**
-├── phylogeny.jpeg
-├── python_scripts **python scripts for analysis**
-├── README.md
-├── r_scripts **r scripts for analysis**
-├── sampleplot.jpeg
-└── shell_scripts **shell scripts for analysis**
+├── allassembly.md **all accession that were studied** \
+├── arabidopsisaccessionlinks.md **links to the accession and the corresponding ENA archives** \
+├── arabidopsis_paper.pdf **arabidopsis paper** \
+├── cap_alignments **folder containing cap alignments with a readme as how to generate them** \
+├── cap_final_joined_fasta **folder containing the final joined fasta** \
+├── cap_genes **folder containing the cap genes** \
+├── directapis.txt **directapis for the ena** \
+├── LICENSE \
+├── maf_alignments **folder containing maf alignments with a readme as how to generate them** \
+├── maf_final_joined_fasta **folder containing the final joined fasta** \
+├── maf_genes  **folder containing the cap genes** \
+├── phylogeny.jpeg \
+├── python_scripts **python scripts for analysis** \
+├── README.md \
+├── r_scripts **r scripts for analysis** \
+├── sampleplot.jpeg \
+└── shell_scripts **shell scripts for analysis** \
 
 **Uncompress the tar archive by using the** ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
 **if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com**
