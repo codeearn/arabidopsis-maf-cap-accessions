@@ -12,7 +12,7 @@ do
          echo "curl https://www.ebi.ac.uk/ena/browser/api/fasta/$i.1\?download\=true\&gzip\=true -o $i.gz";
 done
 ```
-**arabidopsis genome files have been moved to the nextcloud and the links are available in the [directapis](#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/blob/main/directapis.txt). 
+          arabidopsis genome files have been moved to the nextcloud and the links are available in the [directapis](#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/blob/main/directapis.txt). 
           *Normalize your header by running this before running the analysis*
 ```
           cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
