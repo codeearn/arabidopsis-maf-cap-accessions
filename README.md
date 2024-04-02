@@ -4,7 +4,7 @@
 
 ### To run this, run all of these in the following order: methods and the corresponding codes and how to use them 
 the accession used for the analysis are listed here: [accession](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md) 
-1. **downloadrecords.sh**: Run this to download the sequence records from the ebi or the ena. Either you can run this or you can run the code below to generate the direct apis for the download \
+1. **downloadrecords.sh**: Run this to download the sequence records from the ebi or the ena. Either you can run this or you can run the code below to generate the direct apis for the download 
 ```
     *code for generating the direct apis for the arabidopsis ena*
 for i in $(cat arabidopsisaccessionlinks.md | grep GCA | cut -f 2 -d "|");
