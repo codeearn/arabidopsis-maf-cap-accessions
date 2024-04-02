@@ -15,9 +15,10 @@ for i in *.fasta;
 do
       miniprot --gff $i AT5G65050.fasta  > ${i%.*}.gff; 
 done
+# loop this over the each gene. the correponding gene alignments for each gene
 ```
 
-#### loop this over the each gene. the correponding gene alignments for each gene \
+#### results are located at:
 
 [AT5G65050](#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/tree/main/maf_alignments/AT5G65050) 
 [AT5G65060](#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/tree/main/maf_alignments/AT5G65060) \
