@@ -4,7 +4,14 @@
 
 ### To run this, run all of these in the following order: methods and the corresponding codes and how to use them 
 the accession used for the analysis are listed here: [accession](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md) \
-**downloadrecords.sh**: Run this to download the sequence records from the ebi or the ena. \
+**downloadrecords.sh**: Run this to download the sequence records from the ebi or the ena. Either you can run this or you can run the code below to generate the direct apis for the download \
+          *code for generating the direct apis for the arabidopsis ena*
+```
+for i in $(cat arabidopsisaccessionlinks.md | grep GCA | cut -f 2 -d "|");
+do
+         echo "curl https://www.ebi.ac.uk/ena/browser/api/fasta/$i.1\?download\=true\&gzip\=true -o $i.gz";
+done
+```
 **alignmentrecords.sh**: Run this to make the corresponding alignments, this follows the lift off approach by transferring the annotations. \
 **alignmentrecordnon.sh**: Run this to make the corresponding alignments, based on the genome alignment and the gene anchor approach. \
 **phylogeny.R**: Run this to make the phylogeny. \
@@ -14,13 +21,7 @@ the accession used for the analysis are listed here: [accession](https://github.
 > Uncompress the tar archive by using the ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
 >> if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com
 
-### code for generating the direct apis for the arabidopsis ena
-```
-for i in $(cat arabidopsisaccessionlinks.md | grep GCA | cut -f 2 -d "|");
-do
-         echo "curl https://www.ebi.ac.uk/ena/browser/api/fasta/$i.1\?download\=true\&gzip\=true -o $i.gz";
-done
-```
+
 ### Normalize your header by running this before running the analysis
 ```
 cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
