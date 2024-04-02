@@ -30,7 +30,9 @@ cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
 ```
 ##### Example alignment and the phylogeny visualization 
 ![graphical alignment](https://github.com/sablokgaurav/arabidopsis_maf_cap_acessions_alignments/blob/main/sampleplot.jpeg)
-![phylogeny](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions_alignments/blob/main/phylogeny.jpeg)
+![phylogeny](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions_alignments/blob/main/phylogeny.jpeg).
+
+**arabidopsis genome files have been moved to the nextcloud and the links are available in the [directapis](#https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/blob/main/directapis.txt). 
 
 Gaurav Sablok \
 Academic Staff Member \
