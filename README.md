@@ -51,11 +51,11 @@ arabidopsis genome files have been moved to the nextcloud and the links are avai
 ![graphical alignment](https://github.com/sablokgaurav/arabidopsis_maf_cap_acessions_alignments/blob/main/sampleplot.jpeg)
 ![phylogeny](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions_alignments/blob/main/phylogeny.jpeg).
 
-- i finished coding additional python code yesterday night that will do all this with in a single file.
 - adding the visualization of the genes identified by alignment so that the gene visualziation can be reconstructed even though it is not annotated.
 - adding the support of the tanggle for the mapping of the alignments.
+- adding the supernetworks for the arabidopsis including the visualization of the networks as graphs.
 
-**if you have any other ideas then let me know, rest i added everything what can be done on this dataset**
+**You can choose which you like, tell me more if you need anything else and if you have any other ideas then let me know, rest i added everything what can be done on this dataset**
 
 Gaurav Sablok \
 Academic Staff Member \
