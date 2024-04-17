@@ -3,8 +3,7 @@
 - the aligned one is the same aligned for all the indiviual/accessions.
 
 ## Gaps scores distribution
-| Number of                     |        Cumulative     % Cumulative    |       Number of Gaps    % Gaps        Gap Score  |
-| Residues      % Length        |       NumberResid.       Length       |         per Column    per Column      per Column |
+| Number of  Residues |  % Length    |  Cumulative NumberResid. |   % Cumulative    Length | Number of Gaps  per Column |  % Gaps  per Column | Gap Score per Column |
 ----------------------------------------------------------------------------------------------------------------------------
 |  5720  |         98.99619245     |       5720     |       98.99619245   |          0       |        0            |   1         |
 |  1     |       0.01730702665     |      5721      |      99.01349948    |         1        |       0.01515151515 |  0.9848484848 |
