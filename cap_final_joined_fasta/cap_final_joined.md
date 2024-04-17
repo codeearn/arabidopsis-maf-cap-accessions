@@ -16,7 +16,7 @@
 |  5     |        0.08653513326    |       5778     |       100           |          65      |        0.9848484848 |   0.01515151515 |
 
 ## Columns Identity Descriptive Statistics
-#maxColIdentity 1
-#minColIdentity 0.590909
-#avgColIdentity 0.997355
+#maxColIdentity 1 \
+#minColIdentity 0.590909 \
+#avgColIdentity 0.997355 \
 #stdColIdentity 0.0235959
