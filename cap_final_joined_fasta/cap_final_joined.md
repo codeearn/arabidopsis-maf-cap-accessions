@@ -2,7 +2,7 @@
 - the FINAL one is the one with the predicted complete coding regions.
 - the aligned one is the same aligned for all the indiviual/accessions.
 
-- ## Gaps scores distribution
+## Gaps scores distribution
 | Number of                     |        Cumulative     % Cumulative    |       Number of Gaps    % Gaps        Gap Score  |
 | Residues      % Length        |       NumberResid.       Length       |         per Column    per Column      per Column |
 +-------------------------------+---------------------------------------+--------------------------------------------------+
