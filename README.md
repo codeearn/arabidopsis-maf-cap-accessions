@@ -28,20 +28,20 @@ arabidopsis genome directapis [directapis](https://github.com/sablokgaurav/arabi
 
 **How to read this github repository** 
 
-├── allassembly.md **all accession that were studied** \
-├── arabidopsisaccessionlinks.md **links to the accession and the corresponding ENA archives** \
-├── arabidopsis_paper.pdf **arabidopsis paper** \
-├── cap_alignments **folder containing cap alignments with a readme as how to generate them** \
-├── cap_final_joined_fasta **folder containing the final fasta, alignments, ancestral tree, phylogenetic tree, acestral sequence, alignment visualization** \
-├── cap_genes **folder containing the cap genes** \
-├── directapis.txt **directapis for the ena** \
-├── maf_alignments **folder containing maf alignments with a readme as how to generate them** \
-├── maf_final_joined_fasta **folder containing the final fasta alignments, ancestral tree, phylogenetic tree, acestral sequence, alignment visualization** \
-├── maf_genes  **folder containing the cap genes** \
-├── python_scripts **python scripts for analysis** \
-├── README.md \ **README for the complete analysis** \
-├── r_scripts **r scripts for analysis** \
-└── shell_scripts **shell scripts for analysis** 
+- allassembly.md **all accession that were studied** 
+- arabidopsisaccessionlinks.md **links to the accession and the corresponding ENA archives** 
+- arabidopsis_paper.pdf **arabidopsis paper** 
+- cap_alignments **folder containing cap alignments with a readme as how to generate them** 
+- cap_final_joined_fasta **folder containing the final fasta, alignments, ancestral tree, phylogenetic tree, acestral sequence, alignment visualization** 
+- cap_genes **folder containing the cap genes** 
+- directapis.txt **directapis for the ena** 
+- maf_alignments **folder containing maf alignments with a readme as how to generate them** 
+- maf_final_joined_fasta **folder containing the final fasta alignments, ancestral tree, phylogenetic tree, acestral sequence, alignment visualization** 
+- maf_genes  **folder containing the cap genes** 
+- python_scripts **python scripts for analysis** 
+- README.md \ **README for the complete analysis** 
+- r_scripts **r scripts for analysis** 
+- shell_scripts **shell scripts for analysis** 
 
 **cap_final_joined_fasta: File listing** [cap_final_joined_fasta](https://github.com/codeearn/arabidopsis-maf-cap-accessions/tree/main/cap_final_joined_fasta)
 ```
