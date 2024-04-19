@@ -4,6 +4,7 @@
 <div align = "justify"> Analysis outlay: since the genomes reported in the paper have not been annotated, miniprot was used to align the protein sequences for the corresponding genes and then align them to the genome of all these accesssion and extract those regions and then make a alignment of the same. The code along with the runs files are present within the corresponding project execution files.</div> 
 
 <div align = "justify"><b>Methods</b></br>
+   
 the accession used for the analysis are listed here: [accession](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md) 
 - **downloadrecords.sh**: Run this to download the sequence records from the ebi or the ena. Either you can run this or you can run the code below to generate the direct apis for the download 
 ```
