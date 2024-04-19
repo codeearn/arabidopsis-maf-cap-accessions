@@ -73,10 +73,6 @@ arabidopsis genome files have been moved to the nextcloud and the links are avai
 **Uncompress the tar archive by using the** ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
 **if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com**
 
-##### Example alignment and the phylogeny visualization 
-![graphical alignment](https://github.com/sablokgaurav/arabidopsis_maf_cap_acessions_alignments/blob/main/sampleplot.jpeg)
-![phylogeny](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions_alignments/blob/main/phylogeny.jpeg).
-
 Gaurav Sablok \
 Academic Staff Member \
 Bioinformatics \
