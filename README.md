@@ -44,6 +44,28 @@ arabidopsis genome files have been moved to the nextcloud and the links are avai
 ├── sampleplot.jpeg \
 └── shell_scripts **shell scripts for analysis** 
 
+**cap_final_joined_folder: File listing**
+├── all.cap.gff.clipped.gff: All aligned mRNA positions. \ 
+├── capgenes.aligned.fasta.best.anc.dnd: best phylogenetic tree \
+├── capgenes.aligned.fasta.best.anc.fas: best ancestral sequence \
+├── capgenes.aligned.fasta.best.dnd: best phylogenetic ancestral tree \
+├── capgenes.aligned.fasta.best.fas: alignment \
+└── capview.html: visualization of alignment
+
+**maf_final_joined_folder: File listing**
+├── AT5G65050.all.out.fasta : mRNA regions for the AT5G65050
+├── AT5G65050.gff.clipped.gff : aligned position information for the AT5G65050
+├── AT5G65060.all.out.fasta : mRNA regions for the AT5G65060
+├── AT5G65060.gff.clipped.gff : aligned position information for the AT5G65060
+├── AT5G65070.all.out.fasta : mRNA regions for the AT5G65070
+├── AT5G65070.gff.clipped.gff : aligned position information for the AT5G65070
+├── AT5G65080.all.out.fasta : mRNA regions for the AT5G65080
+├── AT5G65080.gff.clipped.gff : aligned position information for the AT5G65070
+├── final.all.linear.tar.bz : all arabidopsis accessions.
+├── maf_aligned_ancestral_tree : ancestral tree for each of the indiviual.
+├── maf_aligned_best : aligned regions for each of the indiviuals along with the visualization
+├── maf_ancestral_sequence : ancestral sequences for each of them.
+
 **Uncompress the tar archive by using the** ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
 **if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com**
 
