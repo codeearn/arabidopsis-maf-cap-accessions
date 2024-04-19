@@ -48,7 +48,7 @@ arabidopsis genome directapis [directapis](https://github.com/sablokgaurav/arabi
 - shell_scripts **shell scripts for analysis**
 - README.md  **README for the complete analysis**
 
-<p2>Folder read for the analysis </p2></br>
+<p2><b>Folder read for the analysis</b></p2></br>
 
 **cap_final_joined_fasta: File listing** [cap_final_joined_fasta](https://github.com/codeearn/arabidopsis-maf-cap-accessions/tree/main/cap_final_joined_fasta)
 ```
