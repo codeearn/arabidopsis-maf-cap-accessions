@@ -46,11 +46,11 @@ arabidopsis genome files have been moved to the nextcloud and the links are avai
 
 **cap_final_joined_fasta: File listing** [cap_final_joined_fasta](https://github.com/codeearn/arabidopsis-maf-cap-accessions/tree/main/cap_final_joined_fasta)
 ```
-├── all.cap.gff.clipped.gff: All aligned mRNA positions. \ 
-├── capgenes.aligned.fasta.best.anc.dnd: best phylogenetic tree \
-├── capgenes.aligned.fasta.best.anc.fas: best ancestral sequence \
-├── capgenes.aligned.fasta.best.dnd: best phylogenetic ancestral tree \
-├── capgenes.aligned.fasta.best.fas: alignment \
+├── all.cap.gff.clipped.gff: All aligned mRNA positions. 
+├── capgenes.aligned.fasta.best.anc.dnd: best phylogenetic tree 
+├── capgenes.aligned.fasta.best.anc.fas: best ancestral sequence 
+├── capgenes.aligned.fasta.best.dnd: best phylogenetic ancestral tree 
+├── capgenes.aligned.fasta.best.fas: alignment 
 └── capview.html: visualization of alignment
 ```
 
