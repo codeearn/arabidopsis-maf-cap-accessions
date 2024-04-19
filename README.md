@@ -32,18 +32,15 @@ arabidopsis genome directapis [directapis](https://github.com/sablokgaurav/arabi
 ├── arabidopsisaccessionlinks.md **links to the accession and the corresponding ENA archives** \
 ├── arabidopsis_paper.pdf **arabidopsis paper** \
 ├── cap_alignments **folder containing cap alignments with a readme as how to generate them** \
-├── cap_final_joined_fasta **folder containing the final joined fasta** \
+├── cap_final_joined_fasta **folder containing the final fasta, alignments, ancestral tree, phylogenetic tree, acestral sequence, alignment visualization** \
 ├── cap_genes **folder containing the cap genes** \
 ├── directapis.txt **directapis for the ena** \
-├── LICENSE \
 ├── maf_alignments **folder containing maf alignments with a readme as how to generate them** \
-├── maf_final_joined_fasta **folder containing the final joined fasta** \
+├── maf_final_joined_fasta **folder containing the final fasta alignments, ancestral tree, phylogenetic tree, acestral sequence, alignment visualization** \
 ├── maf_genes  **folder containing the cap genes** \
-├── phylogeny.jpeg \
 ├── python_scripts **python scripts for analysis** \
-├── README.md \
+├── README.md \ **README for the complete analysis** \
 ├── r_scripts **r scripts for analysis** \
-├── sampleplot.jpeg \
 └── shell_scripts **shell scripts for analysis** 
 
 **cap_final_joined_fasta: File listing** [cap_final_joined_fasta](https://github.com/codeearn/arabidopsis-maf-cap-accessions/tree/main/cap_final_joined_fasta)
