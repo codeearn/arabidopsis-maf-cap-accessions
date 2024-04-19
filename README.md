@@ -48,7 +48,7 @@ arabidopsis genome directapis [directapis](https://github.com/sablokgaurav/arabi
 - shell_scripts **shell scripts for analysis**
 - README.md  **README for the complete analysis**
 
-<p2>Folder read for the analysis </p></br>
+<p2>Folder read for the analysis </p2></br>
 
 **cap_final_joined_fasta: File listing** [cap_final_joined_fasta](https://github.com/codeearn/arabidopsis-maf-cap-accessions/tree/main/cap_final_joined_fasta)
 ```
@@ -70,7 +70,7 @@ arabidopsis genome directapis [directapis](https://github.com/sablokgaurav/arabi
 ├── AT5G65070.gff.clipped.gff : aligned position information for the AT5G65070
 ├── AT5G65080.all.out.fasta : mRNA regions for the AT5G65080
 ├── AT5G65080.gff.clipped.gff : aligned position information for the AT5G65070
-├── final.all.linear.tar.bz : all arabidopsis accessions.
+├── final.all.linear.tar.bz : all arabidopsis accessions.plantomlfetcher("/home/gaurav/Desktop/po.owl")
 ├── maf_aligned_ancestral_tree : ancestral tree for each of the indiviual.
 ├── maf_aligned_best : aligned regions for each of the indiviuals along with the visualization
 ├── maf_ancestral_sequence : ancestral sequences for each of them.
