@@ -15,8 +15,17 @@
 |  8     |        0.1384562132     |       5773     |       99.91346487   |          61      |        0.9242424242 |  0.07575757576 |
 |  5     |        0.08653513326    |       5778     |       100           |          65      |        0.9848484848 |   0.01515151515 |
 
-## Columns Identity Descriptive Statistics
-#maxColIdentity 1 \
-#minColIdentity 0.590909 \
-#avgColIdentity 0.997355 \
-#stdColIdentity 0.0235959
+##### Columns Identity Descriptive Statistics
+# maxColIdentity 1 \
+# minColIdentity 0.590909 \
+# avgColIdentity 0.997355 \
+# stdColIdentity 0.0235959
+
+#### Description of files:
+
+├── all.cap.gff.clipped.gff: All aligned mRNA positions. 
+├── capgenes.aligned.fasta.best.anc.dnd: best phylogenetic tree
+├── capgenes.aligned.fasta.best.anc.fas: best ancestral sequence
+├── capgenes.aligned.fasta.best.dnd: best phylogenetic ancestral tree
+├── capgenes.aligned.fasta.best.fas: alignment 
+└── capview.html: visualization of alignment
