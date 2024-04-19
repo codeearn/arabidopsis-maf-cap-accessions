@@ -1,7 +1,7 @@
 ### arabidopsis-maf-cap-accessions: brief writeup
 <div align = "justify"> arabidopsis alignments for the maf and the cap gene clusters. multiple alignment and visualization of the aligned genes and clusters. The genes that are used are At5g65050-At5g65080, containing 4 genes (Maf2-5 cluster of genes) and At2g13540 CBP80 Cap-binding protein 80. The corresponding genome assemblies and the download link to the assemblies along with the code to download, align, annotate and draw the alignments. Analysis for the arabidopsis genomes and the accessions cited in the paper: https://www.nature.com/articles/s41586-023-06062-z#data-availability. </div></br>
 
-<div align = "justify"> Analysis outlay: since the genomes reported in the paper have not been annotated, miniprot was used to align the protein sequences for the corresponding genes and then align them to the genome of all these accesssion and extract those regions and then make a alignment of the same. The code along with the runs files are present within the corresponding project execution files.</div> 
+<div align = "justify"> Analysis outlay: since the genomes reported in the paper have not been annotated, miniprot was used to align the protein sequences for the corresponding genes and then align them to the genome of all these accesssion and extract those regions and then make a alignment of the same. The code along with the runs files are present within the corresponding project execution files.</div> </br>
 
 <div align = "justify"><b>Methods</b></br>
    
