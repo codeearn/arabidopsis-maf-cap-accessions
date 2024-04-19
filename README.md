@@ -44,7 +44,8 @@ arabidopsis genome files have been moved to the nextcloud and the links are avai
 ├── sampleplot.jpeg \
 └── shell_scripts **shell scripts for analysis** 
 
-**cap_final_joined_folder: File listing**
+**cap_final_joined_fasta: File listing** [cap_final_joined_fasta](https://github.com/codeearn/arabidopsis-maf-cap-accessions/tree/main/cap_final_joined_fasta)
+
 ├── all.cap.gff.clipped.gff: All aligned mRNA positions. \ 
 ├── capgenes.aligned.fasta.best.anc.dnd: best phylogenetic tree \
 ├── capgenes.aligned.fasta.best.anc.fas: best ancestral sequence \
@@ -52,7 +53,8 @@ arabidopsis genome files have been moved to the nextcloud and the links are avai
 ├── capgenes.aligned.fasta.best.fas: alignment \
 └── capview.html: visualization of alignment
 
-**maf_final_joined_folder: File listing**
+**maf_final_joined_fasta: File listing** [maf_final_joined_fasta](https://github.com/codeearn/arabidopsis-maf-cap-accessions/tree/main/maf_final_joined_fasta)
+
 ├── AT5G65050.all.out.fasta : mRNA regions for the AT5G65050
 ├── AT5G65050.gff.clipped.gff : aligned position information for the AT5G65050
 ├── AT5G65060.all.out.fasta : mRNA regions for the AT5G65060
