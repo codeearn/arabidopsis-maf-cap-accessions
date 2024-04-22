@@ -23,7 +23,6 @@ arabidopsis genome directapis [directapis](https://github.com/sablokgaurav/arabi
 
 - **alignmentrecords.sh**: Run this to make the corresponding alignments, this follows the lift off approach by transferring the annotations.
 -  **phylogeny.R**: Run this to make the phylogeny.
-- **visualfreq.R**: Run this to make the visualization plot.
 - **visualfreq.R**: Run this to make the alignment visualization.
 - **mapalignment-phylogeny.R**: Run this to make the alignment, visualization.
 - **generatemRNAs.py**: Run this to extract the corresponding mRNAs.
