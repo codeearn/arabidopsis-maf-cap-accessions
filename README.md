@@ -51,6 +51,10 @@ arabidopsis genome directapis [directapis](https://github.com/sablokgaurav/arabi
 
 **cap_final_joined_fasta: File listing** [cap_final_joined_fasta](https://github.com/codeearn/arabidopsis-maf-cap-accessions/tree/main/cap_final_joined_fasta)
 ```
+    alignments can be run with the following: 
+       for i in *.fasta; do echo prank -d=${i} -o=${i%.*}.aligned.fasta -showanc -showtree; done
+```
+```
 ├── all.cap.gff.clipped.gff: All aligned mRNA positions. 
 ├── capgenes.aligned.fasta.best.anc.dnd: best phylogenetic tree 
 ├── capgenes.aligned.fasta.best.anc.fas: best ancestral sequence 
