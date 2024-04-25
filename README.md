@@ -26,6 +26,7 @@ arabidopsis genome directapis [directapis](https://github.com/sablokgaurav/arabi
 - **visualfreq.R**: Run this to make the alignment visualization.
 - **mapalignment-phylogeny.R**: Run this to make the alignment, visualization.
 - **generatemRNAs.py**: Run this to extract the corresponding mRNAs.
+- **genome-annotation-visualizer.R**: Run this to make the visualization of the genomic features. You can find the code here also [evoseq](https://github.com/sablokgaurav/evoseq-genome-informatics) and here also [genome-annotation](https://github.com/sablokgaurav/genome-annotation-visualizer)
 
 **How to read this github repository** 
 
