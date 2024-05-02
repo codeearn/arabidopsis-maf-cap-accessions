@@ -5,7 +5,7 @@
 
 <div align = "justify"><b>Methods</b></br>
    
-the accession used for the analysis are listed here: [accession](https://github.com/sablokgaurav/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md) 
+the accession used for the analysis are listed here: [accession](https://github.com/gauravearn/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md) 
 - **downloadrecords.sh**: Run this to download the sequence records from the ebi or the ena. Either you can run this or you can run the code below to generate the direct apis for the download 
 ```
     *code for generating the direct apis for the arabidopsis ena*
@@ -14,7 +14,7 @@ do
          echo "curl https://www.ebi.ac.uk/ena/browser/api/fasta/$i.1\?download\=true\&gzip\=true -o $i.gz";
 done
 ```
-arabidopsis genome directapis [directapis](https://github.com/sablokgaurav/arabidopsis-maf-cap-accessions/blob/main/directapis.txt). 
+arabidopsis genome directapis [directapis](https://github.com/gauravearn/arabidopsis-maf-cap-accessions/blob/main/directapis.txt). 
 ```
           *Normalize your header by running this before running the analysis*
           cat fastafile | cut -f 1 -d " " | cut -f 1 -d "." > output.fasta
@@ -26,7 +26,7 @@ arabidopsis genome directapis [directapis](https://github.com/sablokgaurav/arabi
 - **visualfreq.R**: Run this to make the alignment visualization.
 - **mapalignment-phylogeny.R**: Run this to make the alignment, visualization.
 - **generatemRNAs.py**: Run this to extract the corresponding mRNAs.
-- **genome-annotation-visualizer.R**: Run this to make the visualization of the genomic features. You can find the code here also [evoseq](https://github.com/sablokgaurav/evoseq-genome-informatics) and here also [genome-annotation](https://github.com/sablokgaurav/genome-annotation-visualizer)
+- **genome-annotation-visualizer.R**: Run this to make the visualization of the genomic features. You can find the code here also [evoseq](https://github.com/gauravearn/evoseq-genome-informatics) and here also [genome-annotation](https://github.com/gauravearn/genome-annotation-visualizer)
 
 **How to read this github repository** 
 
@@ -50,7 +50,7 @@ arabidopsis genome directapis [directapis](https://github.com/sablokgaurav/arabi
 
 <p2><b>Folder read for the analysis</b></p2></br>
 
-**cap_final_joined_fasta: File listing** [cap_final_joined_fasta](https://github.com/codeearn/arabidopsis-maf-cap-accessions/tree/main/cap_final_joined_fasta)
+**cap_final_joined_fasta: File listing** [cap_final_joined_fasta](https://github.com/gauravearn/arabidopsis-maf-cap-accessions/tree/main/cap_final_joined_fasta)
 ```
     alignments can be run with the following: 
        for i in *.fasta; do echo prank -d=${i} -o=${i%.*}.aligned.fasta -showanc -showtree; done
@@ -64,7 +64,7 @@ arabidopsis genome directapis [directapis](https://github.com/sablokgaurav/arabi
 └── capview.html: visualization of alignment
 ```
 
-**maf_final_joined_fasta: File listing** [maf_final_joined_fasta](https://github.com/codeearn/arabidopsis-maf-cap-accessions/tree/main/maf_final_joined_fasta)
+**maf_final_joined_fasta: File listing** [maf_final_joined_fasta](https://github.com/gauravearn/arabidopsis-maf-cap-accessions/tree/main/maf_final_joined_fasta)
 ```
 ├── AT5G65050.all.out.fasta : mRNA regions for the AT5G65050
 ├── AT5G65050.gff.clipped.gff : aligned position information for the AT5G65050
