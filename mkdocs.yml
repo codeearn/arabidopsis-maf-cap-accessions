@@ -1,0 +1,10 @@
+site_name: Arabidopsis maf accessions
+site_url: https://gauravcodepro.github.io/arabidopsis-maf-cap-accessions/
+theme: 
+  name: readthedocs
+nav:
+  - Home: index.md
+  - assembly: allassembly.md
+  - accession: arabidopsisaccessionlinks.md 
+
+  
