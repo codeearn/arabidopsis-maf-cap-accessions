@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" /><link rel="canonical" href="https://gauravcodepro.github.io/arabidopsis-maf-cap-accessions/" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Arabidopsis maf accessions</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Home";
+        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_url = "/arabidopsis-maf-cap-accessions/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> Arabidopsis maf accessions
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Home</a>
+    <ul class="current">
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="allassembly/">assembly</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="arabidopsisaccessionlinks/">accession</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">Arabidopsis maf accessions</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Home</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h3 id="arabidopsis-maf-cap-accessions-brief-writeup">arabidopsis-maf-cap-accessions: brief writeup</h3>
+<div align = "justify"> arabidopsis alignments for the maf and the cap gene clusters.
+       multiple alignment and visualization of the aligned genes and clusters. The genes that are used are
+           At5g65050-At5g65080, containing 4 genes (Maf2-5 cluster of genes) and At2g13540
+                           CBP80 Cap-binding protein 80. The corresponding genome assemblies and the download 
+                      link to the assemblies along with the code to download, align, annotate and draw the alignments.
+    Analysis for the arabidopsis genomes and the accessions cited in the paper: https://www.nature.com/articles/s41586-023-06062-z#data-availability. </div>
+<p></br></p>
+<div align = "justify"> <b>Analysis outlay</b>: since the genomes reported in the paper have not been annotated,
+                          miniprot was used to align the protein sequences for the corresponding genes and 
+                            then align them to the genome of all these accesssion and extract those regions and
+                     then make a alignment of the same. The code along with the runs files are present
+                                              within the corresponding project execution files.</div>
+<p></br></p>
+<div align = "justify"><b>Methods</b></br>
+
+the accession used for the analysis are listed here: [accession](https://github.com/gauravearn/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md) 
+- **downloadrecords.sh**: Run this to download the sequence records from the ebi or the ena. Either you can run this or you can run the code below to generate the direct apis for the download 
+
+<pre><code>    *code for generating the direct apis for the arabidopsis ena*
+for i in $(cat arabidopsisaccessionlinks.md | grep GCA | cut -f 2 -d &quot;|&quot;);
+do
+         echo &quot;curl https://www.ebi.ac.uk/ena/browser/api/fasta/$i.1\?download\=true\&amp;gzip\=true -o $i.gz&quot;;
+done
+</code></pre>
+
+arabidopsis genome directapis [directapis](https://github.com/gauravearn/arabidopsis-maf-cap-accessions/blob/main/directapis.txt). 
+
+<pre><code>          *Normalize your header by running this before running the analysis*
+          cat fastafile | cut -f 1 -d &quot; &quot; | cut -f 1 -d &quot;.&quot; &gt; output.fasta
+          # the output fasta will be used for all the analysis. 
+</code></pre>
+
+
+- **alignmentrecords.sh**: Run this to make the corresponding alignments, this follows the lift off approach by transferring the annotations.
+-  **phylogeny.R**: Run this to make the phylogeny.
+- **visualfreq.R**: Run this to make the alignment visualization.
+- **mapalignment-phylogeny.R**: Run this to make the alignment, visualization.
+- **generatemRNAs.py**: Run this to extract the corresponding mRNAs.
+- **genome-annotation-visualizer.R**: Run this to make the visualization of the genomic features. You can find the code here also [evoseq](https://github.com/gauravearn/evoseq-genome-informatics) and here also [genome-annotation](https://github.com/gauravearn/genome-annotation-visualizer)
+
+**How to read this github repository** 
+
+- allassembly.md **all accession that were studied** 
+- arabidopsisaccessionlinks.md **links to the accession and the corresponding ENA archives** 
+- arabidopsis_paper.pdf **arabidopsis paper**
+- directapis.txt **directapis for the ena**
+
+- cap_alignments **folder containing cap alignments with a readme as how to generate them** 
+- cap_final_joined_fasta **folder containing the final fasta, alignments, ancestral tree, phylogenetic tree, acestral sequence, alignment visualization** 
+- cap_genes **folder containing the cap genes** 
+
+- maf_alignments **folder containing maf alignments with a readme as how to generate them** 
+- maf_final_joined_fasta **folder containing the final fasta alignments, ancestral tree, phylogenetic tree, acestral sequence, alignment visualization** 
+- maf_genes  **folder containing the cap genes**
+
+- python_scripts **python scripts for analysis** 
+- r_scripts **r scripts for analysis** 
+- shell_scripts **shell scripts for analysis**
+- README.md  **README for the complete analysis**
+
+<p2><b>Folder read for the analysis</b></p2></br>
+
+**cap_final_joined_fasta: File listing** [cap_final_joined_fasta](https://github.com/gauravearn/arabidopsis-maf-cap-accessions/tree/main/cap_final_joined_fasta)
+
+<pre><code>    alignments can be run with the following: 
+       for i in *.fasta; do echo prank -d=${i} -o=${i%.*}.aligned.fasta -showanc -showtree; done
+</code></pre>
+
+
+<pre><code>├── all.cap.gff.clipped.gff: All aligned mRNA positions. 
+├── capgenes.aligned.fasta.best.anc.dnd: best phylogenetic tree 
+├── capgenes.aligned.fasta.best.anc.fas: best ancestral sequence 
+├── capgenes.aligned.fasta.best.dnd: best phylogenetic ancestral tree 
+├── capgenes.aligned.fasta.best.fas: alignment 
+└── capview.html: visualization of alignment
+</code></pre>
+
+
+**maf_final_joined_fasta: File listing** [maf_final_joined_fasta](https://github.com/gauravearn/arabidopsis-maf-cap-accessions/tree/main/maf_final_joined_fasta)
+
+<pre><code>├── AT5G65050.all.out.fasta : mRNA regions for the AT5G65050
+├── AT5G65050.gff.clipped.gff : aligned position information for the AT5G65050
+├── AT5G65060.all.out.fasta : mRNA regions for the AT5G65060
+├── AT5G65060.gff.clipped.gff : aligned position information for the AT5G65060
+├── AT5G65070.all.out.fasta : mRNA regions for the AT5G65070
+├── AT5G65070.gff.clipped.gff : aligned position information for the AT5G65070
+├── AT5G65080.all.out.fasta : mRNA regions for the AT5G65080
+├── AT5G65080.gff.clipped.gff : aligned position information for the AT5G65070
+├── final.all.linear.tar.bz : all arabidopsis accessions
+├── maf_aligned_ancestral_tree : ancestral tree for each of the indiviual.
+├── maf_aligned_best : aligned regions for each of the indiviuals along with the visualization
+├── maf_ancestral_sequence : ancestral sequences for each of them.
+</code></pre>
+
+
+**Uncompress the tar archive by using the** ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
+**if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com**
+
+Gaurav \
+Academic Staff Member \
+Bioinformatics \
+Institute for Biochemistry and Biology \
+University of Potsdam \
+Potsdam,Germany
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="allassembly/" class="btn btn-neutral float-right" title="assembly">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+      <span><a href="allassembly/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.6.0
+Build Date UTC : 2024-05-27 08:23:24.926352+00:00
+-->
