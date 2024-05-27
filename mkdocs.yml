@@ -6,5 +6,11 @@ nav:
   - Home: index.md
   - assembly: allassembly.md
   - accession: arabidopsisaccessionlinks.md 
+  - capview: capview.md
+  - AT5G65050: AT5G65050.all.out.fasta.aligned.fasta.best.md
+  - AT5G65060: AT5G65060.all.out.fasta.aligned.fasta.best.md
+  - AT5G65070: AT5G65070.all.out.fasta.aligned.fasta.best.md
+  - AT5G65080: AT5G65080.all.out.fasta.aligned.fasta.best.md
+  
 
   

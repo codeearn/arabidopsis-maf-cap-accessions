@@ -6,12 +6,37 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://gauravcodepro.github.io/arabidopsis-maf-cap-accessions/AT5G65050.all.out.fasta.aligned.fasta.best/</loc>
+         <lastmod>2024-05-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://gauravcodepro.github.io/arabidopsis-maf-cap-accessions/AT5G65060.all.out.fasta.aligned.fasta.best/</loc>
+         <lastmod>2024-05-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://gauravcodepro.github.io/arabidopsis-maf-cap-accessions/AT5G65070.all.out.fasta.aligned.fasta.best/</loc>
+         <lastmod>2024-05-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://gauravcodepro.github.io/arabidopsis-maf-cap-accessions/AT5G65080.all.out.fasta.aligned.fasta.best/</loc>
+         <lastmod>2024-05-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://gauravcodepro.github.io/arabidopsis-maf-cap-accessions/allassembly/</loc>
          <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://gauravcodepro.github.io/arabidopsis-maf-cap-accessions/arabidopsisaccessionlinks/</loc>
+         <lastmod>2024-05-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://gauravcodepro.github.io/arabidopsis-maf-cap-accessions/capview/</loc>
          <lastmod>2024-05-27</lastmod>
          <changefreq>daily</changefreq>
     </url>
