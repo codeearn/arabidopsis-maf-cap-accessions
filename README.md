@@ -81,7 +81,7 @@ arabidopsis genome directapis [directapis](https://github.com/gauravearn/arabido
 ```
 
 **Uncompress the tar archive by using the** ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
-**if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com**
+**if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or gauravcodepro@gmail.com**
 
 Gaurav \
 Academic Staff Member \
