@@ -41,8 +41,6 @@
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="#">Home</a>
-    <ul class="current">
-    </ul>
                 </li>
               </ul>
               <ul>
@@ -76,7 +74,10 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h3 id="arabidopsis-maf-cap-accessions-brief-writeup">arabidopsis-maf-cap-accessions: brief writeup</h3>
+                <h3>arabidopsis-maf-cap-accessions: </h3>
+
+<h4><b>brief writeup</b></h4>
+
 <div align = "justify"> arabidopsis alignments for the maf and the cap gene clusters.
        multiple alignment and visualization of the aligned genes and clusters. The genes that are used are
            At5g65050-At5g65080, containing 4 genes (Maf2-5 cluster of genes) and At2g13540
@@ -90,62 +91,95 @@
                      then make a alignment of the same. The code along with the runs files are present
                                               within the corresponding project execution files.</div>
 <p></br></p>
-<div align = "justify"><b>Methods</b></br>
-
-the accession used for the analysis are listed here: [accession](https://github.com/gauravearn/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md) 
-- **downloadrecords.sh**: Run this to download the sequence records from the ebi or the ena. Either you can run this or you can run the code below to generate the direct apis for the download 
-
+<div align = "justify"><b>Methods</b></div>
+<p></br></p>
+<p>the accession used for the analysis are listed here:</p>
+<p><a href="https://github.com/gauravearn/arabidopsis_maf_cap_accessions/blob/main/arabidopsisaccessionlinks.md">accessions</a></p>
+<ul>
+<li><strong>downloadrecords.sh</strong>: Run this to download the sequence records from the ebi or the ena. Either you can run this or you can run the code below to generate the direct apis for the download </li>
+</ul>
 <pre><code>    *code for generating the direct apis for the arabidopsis ena*
 for i in $(cat arabidopsisaccessionlinks.md | grep GCA | cut -f 2 -d &quot;|&quot;);
 do
          echo &quot;curl https://www.ebi.ac.uk/ena/browser/api/fasta/$i.1\?download\=true\&amp;gzip\=true -o $i.gz&quot;;
 done
 </code></pre>
+<h4>arabidopsis genome apis</h4>
 
-arabidopsis genome directapis [directapis](https://github.com/gauravearn/arabidopsis-maf-cap-accessions/blob/main/directapis.txt). 
-
+<p><a href="https://github.com/gauravearn/arabidopsis-maf-cap-accessions/blob/main/directapis.txt">arabidopsis apis</a>. </p>
 <pre><code>          *Normalize your header by running this before running the analysis*
           cat fastafile | cut -f 1 -d &quot; &quot; | cut -f 1 -d &quot;.&quot; &gt; output.fasta
           # the output fasta will be used for all the analysis. 
 </code></pre>
+<table class = table table-stripped>
+    <caption> layout of the analysis scripts</caption>
+        <thead>
+            <tr>
+                <th scope = "col">alignmentrecords.sh</th>
+                <th scope = "col">phylogeny.R</th>
+                <th scope = "col">visualfreq.R</th>
+                <th scope = "col">mapalignment-phylogeny.R</th>
+                <th scope = "col">generatemRNAs.py</th>
+                <th scope = "col">genome-annotation-visualizer.R</th>
+            </tr>
+       </thead>
+    <tbody>
+           <tr>
+               <th scope = "row"> corresponding alignments</th>
+                <th scope = "row">phylogeny</th>
+                <th scope = "row">alignment visualization</th>
+                <th scope = "row"> alignment visualization plus phylogeny</th>
+                <th scope = "row">extract mRNAs</th>
+                <th scope = "row"> visualization of genomic features</th>
+           </tr>
+    </tbody>
+</table>
 
+<ul><li>alignmentrecords.sh</li>Run this to make the corresponding alignments, 
+                                        this follows the lift off approach by transferring the annotations.</ul>
+<ul><li>phylogeny.R</li>Run this to make the phylogeny</ul>
+<ul><li>visualfreq.R</li>Run this to make the alignment visualization</ul>
+<ul><li>mapalignment-phylogeny.R</li>Run this to make the alignment, visualization.</ul>
+<ul><li>generatemRNAs.py</li>Run this to extract the corresponding mRNAs.</ul>
+<ul><li>genome-annotation-visualizer.R</li>Run this to make the visualization of the genomic features.</ul>
+<ul><li><a href= "https://github.com/gauravearn/genome-annotation-visualizer">genome-annotation</a></li></ul>
 
-- **alignmentrecords.sh**: Run this to make the corresponding alignments, this follows the lift off approach by transferring the annotations.
--  **phylogeny.R**: Run this to make the phylogeny.
-- **visualfreq.R**: Run this to make the alignment visualization.
-- **mapalignment-phylogeny.R**: Run this to make the alignment, visualization.
-- **generatemRNAs.py**: Run this to extract the corresponding mRNAs.
-- **genome-annotation-visualizer.R**: Run this to make the visualization of the genomic features. You can find the code here also [evoseq](https://github.com/gauravearn/evoseq-genome-informatics) and here also [genome-annotation](https://github.com/gauravearn/genome-annotation-visualizer)
+<h4>How to read this github repository</h4>
 
-**How to read this github repository** 
-
-- allassembly.md **all accession that were studied** 
-- arabidopsisaccessionlinks.md **links to the accession and the corresponding ENA archives** 
-- arabidopsis_paper.pdf **arabidopsis paper**
-- directapis.txt **directapis for the ena**
-
-- cap_alignments **folder containing cap alignments with a readme as how to generate them** 
-- cap_final_joined_fasta **folder containing the final fasta, alignments, ancestral tree, phylogenetic tree, acestral sequence, alignment visualization** 
-- cap_genes **folder containing the cap genes** 
-
-- maf_alignments **folder containing maf alignments with a readme as how to generate them** 
-- maf_final_joined_fasta **folder containing the final fasta alignments, ancestral tree, phylogenetic tree, acestral sequence, alignment visualization** 
-- maf_genes  **folder containing the cap genes**
-
-- python_scripts **python scripts for analysis** 
-- r_scripts **r scripts for analysis** 
-- shell_scripts **shell scripts for analysis**
-- README.md  **README for the complete analysis**
-
-<p2><b>Folder read for the analysis</b></p2></br>
-
-**cap_final_joined_fasta: File listing** [cap_final_joined_fasta](https://github.com/gauravearn/arabidopsis-maf-cap-accessions/tree/main/cap_final_joined_fasta)
-
+<ul>
+<li>allassembly.md <strong>all accession that were studied</strong> </li>
+<li>arabidopsisaccessionlinks.md <strong>links to the accession and the corresponding ENA archives</strong> </li>
+<li>arabidopsis_paper.pdf <strong>arabidopsis paper</strong></li>
+<li>
+<p>directapis.txt <strong>directapis for the ena</strong></p>
+</li>
+<li>
+<p>cap_alignments <strong>folder containing cap alignments with a readme as how to generate them</strong> </p>
+</li>
+<li>cap_final_joined_fasta <strong>folder containing the final fasta, alignments, ancestral tree, phylogenetic tree, acestral sequence, alignment visualization</strong> </li>
+<li>
+<p>cap_genes <strong>folder containing the cap genes</strong> </p>
+</li>
+<li>
+<p>maf_alignments <strong>folder containing maf alignments with a readme as how to generate them</strong> </p>
+</li>
+<li>maf_final_joined_fasta <strong>folder containing the final fasta alignments, ancestral tree, phylogenetic tree, acestral sequence, alignment visualization</strong> </li>
+<li>
+<p>maf_genes  <strong>folder containing the cap genes</strong></p>
+</li>
+<li>
+<p>python_scripts <strong>python scripts for analysis</strong> </p>
+</li>
+<li>r_scripts <strong>r scripts for analysis</strong> </li>
+<li>shell_scripts <strong>shell scripts for analysis</strong></li>
+<li>README.md  <strong>README for the complete analysis</strong></li>
+</ul>
+<p><p2><b>Folder read for the analysis</b></p2></br></p>
+<p><strong>cap_final_joined_fasta: File listing</strong> <a href="https://github.com/gauravearn/arabidopsis-maf-cap-accessions/tree/main/cap_final_joined_fasta">cap_final_joined_fasta</a></p>
 <pre><code>    alignments can be run with the following: 
-       for i in *.fasta; do echo prank -d=${i} -o=${i%.*}.aligned.fasta -showanc -showtree; done
+       for i in *.fasta; do echo prank -d=${i} -o= \
+                              ${i%.*}.aligned.fasta -showanc -showtree; done
 </code></pre>
-
-
 <pre><code>├── all.cap.gff.clipped.gff: All aligned mRNA positions. 
 ├── capgenes.aligned.fasta.best.anc.dnd: best phylogenetic tree 
 ├── capgenes.aligned.fasta.best.anc.fas: best ancestral sequence 
@@ -153,33 +187,48 @@ arabidopsis genome directapis [directapis](https://github.com/gauravearn/arabido
 ├── capgenes.aligned.fasta.best.fas: alignment 
 └── capview.html: visualization of alignment
 </code></pre>
+<p><a href = "https://github.com/gauravearn/arabidopsis-maf-cap-accessions/tree/main/maf_final_joined_fasta">maf_final_joined_fasta</a></p>
+<pre><code>├── AT5G65050.all.out.fasta : 
+                             mRNA regions for the AT5G65050
+├── AT5G65050.gff.clipped.gff :
+                             aligned position information for the AT5G65050
+├── AT5G65060.all.out.fasta :
+                            mRNA regions for the AT5G65060
+├── AT5G65060.gff.clipped.gff :
+                            aligned position information for the AT5G65060
+├── AT5G65070.all.out.fasta : 
+                            mRNA regions for the AT5G65070
+├── AT5G65070.gff.clipped.gff :  
+                           aligned position information for the AT5G65070
+├── AT5G65080.all.out.fasta : 
+                          mRNA regions for the AT5G65080
+├── AT5G65080.gff.clipped.gff : 
+                          aligned position information for the AT5G65070
+├── final.all.linear.tar.bz : 
+                         all arabidopsis accessions
+├── maf_aligned_ancestral_tree :
+                        ancestral tree for each of the indiviual.
+├── maf_aligned_best : 
+                       aligned regions for each of the indiviuals
+                                                   along with the visualization
+├── maf_ancestral_sequence :
+                       ancestral sequences for each of them.
+</code></pre>
+<ul><li>Uncompress the tar archive by using the for genome annotations.</ul>
+<li> 
 
 
-**maf_final_joined_fasta: File listing** [maf_final_joined_fasta](https://github.com/gauravearn/arabidopsis-maf-cap-accessions/tree/main/maf_final_joined_fasta)
-
-<pre><code>├── AT5G65050.all.out.fasta : mRNA regions for the AT5G65050
-├── AT5G65050.gff.clipped.gff : aligned position information for the AT5G65050
-├── AT5G65060.all.out.fasta : mRNA regions for the AT5G65060
-├── AT5G65060.gff.clipped.gff : aligned position information for the AT5G65060
-├── AT5G65070.all.out.fasta : mRNA regions for the AT5G65070
-├── AT5G65070.gff.clipped.gff : aligned position information for the AT5G65070
-├── AT5G65080.all.out.fasta : mRNA regions for the AT5G65080
-├── AT5G65080.gff.clipped.gff : aligned position information for the AT5G65070
-├── final.all.linear.tar.bz : all arabidopsis accessions
-├── maf_aligned_ancestral_tree : ancestral tree for each of the indiviual.
-├── maf_aligned_best : aligned regions for each of the indiviuals along with the visualization
-├── maf_ancestral_sequence : ancestral sequences for each of them.
+<pre><code>         tar -xJf TAIR10_GFF3_genes.tar.xz
 </code></pre>
 
 
-**Uncompress the tar archive by using the** ``` tar -xJf TAIR10_GFF3_genes.tar.xz ``` for the genome annotations.
-**if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or sablokg@gmail.com**
+<p>if you have any questions i can be contacted at gaurav.sablok@uni-potsdam.de or gauravcodepro@gmail.com</p>
 
-Gaurav \
-Academic Staff Member \
-Bioinformatics \
-Institute for Biochemistry and Biology \
-University of Potsdam \
+Gaurav <br>
+Academic Staff Member <br>
+Bioinformatics <br>
+Institute for Biochemistry and Biology <br>
+University of Potsdam <br>
 Potsdam,Germany
               
             </div>
@@ -229,5 +278,5 @@ Potsdam,Germany
 
 <!--
 MkDocs version : 1.6.0
-Build Date UTC : 2024-05-27 08:23:24.926352+00:00
+Build Date UTC : 2024-05-27 09:07:33.956191+00:00
 -->
